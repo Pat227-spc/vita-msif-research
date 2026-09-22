@@ -1,0 +1,10 @@
+CC0 1.0 Universal (captures/)
+
+The files under captures/ (logic-analyzer traces, PulseView/Saleae sessions,
+decoded listings, and notes.json sidecars) are dedicated to the public domain
+under CC0 1.0.
+
+https://creativecommons.org/publicdomain/zero/1.0/
+
+No warranty. Traces may contain mistakes, missing channels, or incorrect
+annotations. Treat them as raw evidence, not as a specification.

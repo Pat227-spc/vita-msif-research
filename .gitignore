@@ -1,0 +1,12 @@
+# Local analyzer vendor caches / huge raw dumps staged before publish
+*.sal.bak
+.DS_Store
+Thumbs.db
+*.zip
+hardware/kicad/*-backups/
+hardware/kicad/_autosave*
+*.kicad_prl
+# Keep published traces; ignore accidental card NAND images
+*.img
+*.bin
+*.nand
