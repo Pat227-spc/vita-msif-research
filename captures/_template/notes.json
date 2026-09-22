@@ -1,0 +1,45 @@
+{
+  "schema": "vita-msif-research.capture.v1",
+  "date": "YYYY-MM-DD",
+  "operator": "",
+  "vita": {
+    "model": "PCH-1000 | PCH-1100 | PCH-2000 | other",
+    "serial_or_nickname": "",
+    "firmware": "",
+    "cfw": false,
+    "cfw_notes": "enso / taiHEN plugins if any"
+  },
+  "card": {
+    "type": "official-sony",
+    "capacity_gb": null,
+    "condition": "sacrificial | daily-do-not-cut",
+    "wired_how": "card-contacts | richdapter-clone | mb-pads"
+  },
+  "analyzer": {
+    "make_model": "Saleae Logic 8 | DSLogic Plus | other",
+    "sample_rate_msps": 100,
+    "threshold_v": 1.65,
+    "trigger": "falling INS | first SCLK",
+    "files": ["capture.sr"]
+  },
+  "channel_map": {
+    "CH0": "SCLK",
+    "CH1": "BS",
+    "CH2": "D0",
+    "CH3": "D1",
+    "CH4": "D2",
+    "CH5": "D3",
+    "CH6": "INS",
+    "CH7": "spare"
+  },
+  "scenario": "cold-insert-poweron | warm-reboot | sleep-wake | format-ui",
+  "host_ui": "mounted | asked-format | ignored | error-code",
+  "measured": {
+    "vcc_v": null,
+    "sclk_idle": "low | high | unknown",
+    "approx_sclk_mhz": null
+  },
+  "photos": [],
+  "notes": "",
+  "license": "CC0-1.0"
+}
